@@ -2,12 +2,9 @@
 This repo is for plotting tdt tanks(signals for channels and deltaF for each tanks)
 
 ## Directories and files
+Go to https://drive.google.com/drive/folders/1x_4U6RisY2-JCa5_f7mMl_0bsPqcjNQA?usp=sharing and download the __new_data__ folder
 
-Please install the packages from the first section of the notebook
-
-!pip install matplotlib\
-!pip install numpy\
-!pip install tdt
+Place the folder into this folder so that the folder structure looks like below
 
 Below is the folder structure when running the jupyter notebook
 
