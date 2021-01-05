@@ -30,7 +30,7 @@ Folder __newtankPlots__ contains ALL the plot images generated from all tank fil
 
 ## There are three parts of the jupternote book
 
-Part1: Install packages(only need to run this section once )
+### Part1: Install packages(only need to run this section once )
 
 Run these cells one by one and wait until each package is installed successfully,there should be success message:
 
@@ -38,12 +38,12 @@ Run these cells one by one and wait until each package is installed successfully
 !pip install numpy\
 !pip install tdt
 
-Part2: Prepare packages and read data for plot preparation
+### Part2: Prepare packages and read data for plot preparation
 
 This section is to import all the installed packages and then read all the data from the new_data folder\
 I also checked the data channel types at the end of the section(make sure to do this step before plotting so that it's clear what channel we are looking at)
 
-PART3: Plot signals from two channels of each tank then plot the deltaF for each channel(ignore white noise)
+### PART3: Plot signals from two channels of each tank then plot the deltaF for each channel(ignore white noise)
 
 I wrote a more detailed explation for the code plotting the first tank since the rest of them are essentially the same.\
 There are 7 tanks in total and 14 plots for A and B channels. DeltaF plots are only generated if the signals are not white noise.
