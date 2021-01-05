@@ -1,35 +1,38 @@
 # Data plot
-Capstone Project: Measuring startup strategy and its evolution
-
-Authors : _Derek Chen_, _Alberto Munguia Cisneros_, _Wangzhi Li_, _Yinhe Lu_, _Bernardo Lopez Vicencio_ 
-
-Date: _September 2020 - December 2020_
+This repo is for plotting tdt tanks(signals for channels and deltaF for each tanks)
 
 ## Directories and files
 
-Please install the required package using `pip install -r requirements.txt`. 
+Please install the packages from the first section of the notebook
 
-Directory __Notebooks__ contains all jupyter notebooks we used to produce our report.
+!pip install matplotlib\
+!pip install numpy\
+!pip install tdt
+
+Below is the folder structure when running the jupyter notebook
 
     .
-    ├── ...
-    ├── Notebooks                   
-    │   ├── Exploratory Analysis          # EDAV of public and private companies data
-    │   ├── Webscraping                   # See 'Final_version Multithread' folder for our final version web scraping code
-    │   ├── NLP                           # Notebooks for three different approaches(BERT, TF-IDF, Word2vec) 
-    │   └── Prediction                    # Notebooks for predictions
-    └── ...
+    ├── Final.ipynb
+    ├── new_data                  
+    │   ├── Algernon-200625-150526         
+    │   ├── Algernon-200625-154539                 
+    │   ├── Algernon-200625-162128
+    │   ├── Algernon-200625-165959
+    │   ├── Algernon-200810-151843
+    │   ├── Algernon-200810-151923
+    │   └── Algernon-200810-160610                   
+    └── newtankPlots
+
+Jupyter Notebook __Final.ipynb__ is the code for plotting
+Folder __new_data__ contains ALL the data tank files
+Folder __newtankPlots__ contains ALL the plot images generated from all tank files
 
 
-Directory __Data__ contains Public and Startup Data from web scraping.(TO DO)
+## There are three parts of the jupternote book
 
-Please see __Progress_Report__ for our progress reporting along the way.
+Part1: Install packages(only need to run this section once )\
 
+Part2: Prepare packages and read data for plot preparation\
 
-## Our goal
+PART3: Plot signals from two channels of each tank then plot the deltaF for each channel(ignore white noise)
 
-The purpose of this project is to develop a new analysis of the strategy of firms using text-based machine learning.
-
-The key insight is that distance in the initial statements made by startup companies can be partially indicative of their strategic positioning to each other, and this, in turn, could be an explicative factor of the future performance of the startup.
-
-The expected outcome of the project will be reproducible code and the improvement of the early version of the paper “Measuring Founding Strategy.” by Prof. Jorge Guzman and Aishen Li, which is the base of this project.
