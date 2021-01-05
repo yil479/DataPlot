@@ -23,8 +23,8 @@ Below is the folder structure when running the jupyter notebook
     │   └── Algernon-200810-160610                   
     └── newtankPlots
 
-Jupyter Notebook __Final.ipynb__ is the code for plotting
-Folder __new_data__ contains ALL the data tank files
+Jupyter Notebook __Final.ipynb__ is the code for plotting\
+Folder __new_data__ contains ALL the data tank files\
 Folder __newtankPlots__ contains ALL the plot images generated from all tank files
 
 
